@@ -3001,9 +3001,7 @@ input.widget-control__field {
     font-size: 17px;
     pointer-events: none;
 }
-.footer .toggle_content {
-    display: block !important;
-}
+
 .footer ul {
     list-style: none;
     margin: 0;
@@ -3043,7 +3041,7 @@ input.widget-control__field {
     line-height: 1.6em;
 }
 .footer .toggle_content {
-    display: block !important;
+    display: block!important;
 }
 @font-face {
   font-family: 'turbo';
@@ -3080,9 +3078,7 @@ input.widget-control__field {
 .icon-email:before {
     content: "\e906";
 }
-.icon-down-arrow:before {
-    content: "\e905";
-}
+
 footer .footer-social-icons--mobile.columns {
     display: none;
     padding-left: 0;
@@ -3116,7 +3112,13 @@ span.icon-down-arrow {
     transition: transform 0.3s linear;
     perspective: 1000;
 }
-
+@media screen and (min-width: 1024px){
+.toggle_content1{
+       display: block !important;
+     
+     
+}
+}
 
 @media screen and (max-width: 800px){
 	.container .column, .container .columns {
@@ -3125,7 +3127,12 @@ span.icon-down-arrow {
 }
 .medium-down--one-whole {
     width: calc(100% - 20px);
+    margin-bottom: 20px;
 }
-
-
+.icon-down-arrow:before {
+    content: "\e905";
+}
+.toggle_content1{
+            display: none;
+         }
 }
